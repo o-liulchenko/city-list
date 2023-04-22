@@ -7,6 +7,17 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <script>
+
+        let link = "o-liulchenko/test-server";
+        // let data = {};
+
+        let request = fetch('https://my-json-server.typicode.com/o-liulchenko/test-server/posts');
+        let data = request.then(request => request.json());
+
+        console.log(data);
+        // .then(request => request.json()).then(json => {for(const prop of json){data[prop] = json[prop];}})
+
+    </script>
 </body>
 </html>
