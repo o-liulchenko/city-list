@@ -1,0 +1,35 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "title": "Post 1",
+            "comments": [
+                {"id": "1", "author": {"id": "1", "firstName": "John", "lastName": "Konstantin", "commentText": "Lorem"}}
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Post 2",
+            "comments": [
+                {"id": "2", "author": {"id": "1", "firstName": "John", "lastName": "Konstantin", "commentText": "Some text"}}
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Post 3",
+            "comments": [
+                {"id": "3", "author": {"id": "2", "firstName": "Victoria", "lastName": "Shevchenko", "commentText": "What"}}
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Post 4",
+            "comments": [
+                {"id": "4", "author": {"id": "3", "firstName": "Serhii", "lastName": "Popov", "commentText": "Is"}}
+            ]
+        }
+    ],
+    "profile": {
+        "name": "oleksandr"
+    }
+}
