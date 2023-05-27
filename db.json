@@ -262,6 +262,17 @@
                 "lat": 49.5
             },
             "name_ua": "Полтавська область"
-        }
+        },
+    {
+        "id": 703883,
+        "name": "Autonomous Republic of Crimea",
+        "state": "",
+        "country": "UA",
+        "coord": {
+            "lon": 34,
+            "lat": 45
+        },
+        "name_ua": "Автономна Республіка Крим"
+    }
     ]
 }
